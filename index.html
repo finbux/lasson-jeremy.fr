@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="src/assets/images/logo-jl.svg">
+    <link rel="stylesheet" href="src/css/output.css">
+    <title>JL - Développeur web</title>
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased">
+    <main class="bg-linear-to-br from-stone-900 via-stone-700 via-65% to-orange-900 text-white ">
+        <!-- LOGO ET MENU-->
+        <header>
+            <div class="flex md:justify-between items-center p-5 container mx-auto">
+                <div>
+                    <a href="index.html"><img src="src/assets/images/logo-jl.svg" class="w-16 hidden md:block" alt="logo du site"></a>
+                </div>
+                <nav>
+                    <ul class="flex gap-6 text-stone-400 text-2xl flex-col sm:flex-row md:text-xl">
+                        <li><a href="#projets" class="hover:text-amber-500 hover:underline duration-100">Projets</a></li>
+                        <li><a href="#competences" class="hover:text-amber-500 hover:underline duration-100">Compétences</a></li>
+                        <li><a href="#parcours" class="hover:text-amber-500 hover:underline duration-100">Parcours</a></li>
+                        <li><a href="#contact" class="hover:text-amber-500 hover:underline duration-100">Contact</a></li>
+                    </ul>
+                </nav> 
+            </div>  
+        </header>
+        <!-- HERO -->
+        <section>
+            <div class="container mx-auto px-5 md:pt-20 pb-20">
+                
+                <p class="inline-flex gap-2 rounded-2xl bg-stone-600 items-center px-4 py-1.5">
+                <span class="size-2 rounded-full bg-green-400 animate-pulse"></span>
+                    Disponible en stage du 22 mars au 21 mai 2027
+                </p> 
+
+                <h1 class="font-merriweather text-5xl my-5 font-bold">Jérémy LASSON</h1>
+                <p>Après 10 années d'expérience dans la gestion d'un point de vente spécialisé dans la réparation mobile, je me consacre aujourd'hui au développement web.
+
+Actuellement en formation Développeur Web et Web Mobile chez M2i, je développe mes compétences en PHP, Symfony et intégration front-end.
+
+Je recherche un stage du 22 mars au 21 mai 2027 pour mettre en pratique mes compétences, participer à des projets concrets et progresser aux côtés d'une équipe de développeurs.</p>
+                <div class="flex mt-10 gap-5">
+                      <button class="btn-orange"><a href="mailto:contact@lasson-jeremy.fr">Me contacter</a></button>
+                      <button class="btn-white"><a href="src/cv.pdf" download="cv" target="_blank">Télécharger mon CV</a></button>  
+                </div>
+                
+            </div>
+        </section>
+    </main> 
+
+     <!-- PROJETS -->
+    <section id="projets">
+         <div class="container mx-auto px-5 pt-20 pb-20">
+            <h2 class="font-merriweather text-4xl font-bold mb-5 ">Projets</h2>
+           
+            <article class="grid md:grid-cols-2 py-10 gap-5 border-t border-stone-300">
+                 <img src="src/assets/images/busy_bar.png" alt="projet busy bar" class="w-full rounded aspect-video object-cover">
+                <div>
+                    <h3 class="text-3xl font-merriweather">Landing page BUSY Bar - Exo de formation</h3>
+                    <p>Réalisation d’une page d’accueil responsive pour présenter un produit, avec une vidéo en arrière-plan, une grille de fonctionnalités et une section associant texte et média.</p>
+                    <ul class="flex gap-2 mt-5">
+                        <li class="btn-b-orange flex gap-2">
+                            HTML
+                            <img src="src/assets/images/html5.svg" alt="logo html 5" class="size-5">
+
+                        </li>
+                        <li class="btn-b-blue flex gap-2">
+                            CSS
+                            <img src="src/assets/images/css3.svg" alt="css 3" class="size-5">
+                        </li>
+                        <li class="btn-b-blue flex gap-2">
+                            Tailwind
+                            <img src="src/assets/images/tailwind.svg" alt="logo tailwind css" class="size-5">
+                        </li>
+                    </ul">
+                </div>
+            </article>
+            <article class="grid md:grid-cols-2 py-10 gap-5 border-t border-stone-300">
+                <img src="src/assets/images/horizon.png" alt="projet-horizon" class="w-full rounded aspect-video object-cover">
+                <div>
+                    <h3 class="text-3xl font-merriweather">Site immobilier - Exo de formation</h3>
+                    <p>Dans le cadre d'un exercice, il était demandé de réaliser un site statique d'annonce immobilière</p>
+                    <ul class="flex gap-2 mt-5">
+                        <li class="btn-b-orange flex gap-2">
+                            HTML
+                            <img src="src/assets/images/html5.svg" alt="logo html 5" class="size-5">
+                        </li>
+                        <li class="btn-b-blue flex gap-2">
+                            CSS
+                            <img src="src/assets/images/css3.svg" alt="logo css 3" class="size-5">
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="grid md:grid-cols-2 py-10 gap-5 border-t border-stone-300">
+                <div class="grid place-items-center aspect-video border-2 border-gray-300 border-dashed rounded"><p class="text-gray-500"> À venir</p></div>
+                <div>
+                    <h3 class="text-3xl font-merriweather">Projet Laravel en cours - Site gérant la réparation mobile</h3>
+                    <p>Dans le but d'approfondire mes connaissances sur Laravel, j'ai décidé de me lancer dans un site de prise en charge 
+                        pour de la réparation mobile
+                    <ul class="flex gap-2 mt-5">
+                        <li class="btn-b-blue flex gap-2">
+                            HTML
+                            <img src="src/assets/images/html5.svg" alt="logo html 5" class="size-5">
+                        </li>
+                        <li class="btn-b-orange flex gap-2">
+                            CSS
+                            <img src="src/assets/images/css3.svg" alt="logo css 3" class="size-5">
+                        </li>
+                        <li class="btn-b-pink flex gap-2">
+                            Laravel
+                            <img src="src/assets/images/laravel.svg" alt="logo laravel" class="size-5">
+                        </li>
+                    </ul>
+                </div>
+            </article>
+         </div>
+    </section>
+
+    <!-- Compétences -->
+
+    <section id="competences" class="bg-white">
+        
+        <div class="container mx-auto px-5 pt-20 pb-20 ">
+
+            <h2 class="font-merriweather text-4xl font-bold mb-5">Mes compétences</h2>
+            <div class="grid md:grid-cols-2 gap-20">
+                <div>
+                    <h3 class="font-merriweather text-xl">Au quotidien</h3>
+                    <p class="text-sm text-stone-500 mt-3">Ce que j'utilise déjà dans mes projets.</p>
+                    <ul class="flex mt-5 gap-3 flex-wrap">
+                        <li class="btn-b-blue">HTML</li>
+                        <li class="btn-b-orange">CSS</li>
+                        <li class="btn-b-blue">Tailwind</li>
+                        <li class="btn-b-purple">PHP</li>
+                        <li class="btn-b-pink">Laravel</li>
+                    </ul>
+                </div>
+                <div class="">
+                    <h3 class="font-merriweather text-xl">En cours d'apprentissage</h3>
+                    <p class="text-sm text-stone-500 mt-3">Au programme de ma formation en ce moment.</p>
+                    <ul class="flex gap-3 mt-5 flex-wrap">
+                        <li class="btn-neutral">JavaScript</li>
+                        <li class="btn-neutral">React</li>
+                        <li class="btn-neutral">Express.js</li>
+                        <li class="btn-neutral">Mongo</li>
+                        <li class="btn-neutral">Next.Js</li>
+                        <li class="btn-neutral">Symfony</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parcours -->
+    <section id="parcours">
+        <div class="container mx-auto px-5 pt-20 pb-20 ">
+            <h2 class="font-merriweather text-4xl font-bold mb-5">Mon parcours</h2>
+            <ol class="border-l-2 border-gray-400 pl-5 space-y-10">
+                <li class="relative">
+                    <span class="absolute -left-[29px] top-2 size-4 rounded-full bg-orange-600"></span>
+                    <p class="text-gray-400 mb-1">22 mars – 21 mai 2027</p>
+                    <h3 class="text-xl font-merriweather mb-1">Stage en développement web</h3>
+                    <p>En cours de recherche pour ce stage</p>
+                </li>
+                <li class="relative">
+                    <span class="absolute -left-[29px] top-2 size-4 rounded-full bg-black"></span>
+                    <p class="text-gray-400 mb-1">12 octobre – 01 juin 2027</p>
+                    <h3 class="text-xl font-merriweather mb-1">Développeur Web et Web Mobile (titre professionnel)</h3>
+                    <p>Formation chez M2i : front-end : HTML5,CSS3, Javascript, back-end PHP, frameworks : Symfony et bases de données SQL</p>
+                </li>
+                <li class="relative">
+                    <span class="absolute -left-[29px] top-2 size-4 rounded-full bg-black"></span>
+                    <p class="text-gray-400 mb-1">16 juin 2016 – 04 septembre 2026</p>
+                    <h3 class="text-xl font-merriweather mb-1">Responsable de réparation mobile</h3>
+                    <p>Pendant 10 ans chez WeFix, j’ai occupé le poste de responsable de point de vente spécialisé dans la réparation mobile. Cette expérience m’a permis de développer des compétences solides en management, gestion commerciale, relation client et pilotage d’activité.
+
+Habitué à relever des défis et à trouver des solutions, j’ai développé un réel sens de l’organisation, de l’autonomie et de l’adaptation.</p>
+                </li>
+                <li class="relative">
+                    <span class="absolute -left-[29px] top-2 size-4 rounded-full bg-black"></span>
+                    <p class="text-gray-400 mb-1">2016</p>
+                    <h3 class="text-xl font-merriweather mb-1">Licence PRO développeur web ( INSSET - Saint-Quentin)</h3>
+                    <p>Obtention de ma licence pro dev web -   (Symfony, Méthode Agile, SCRUM)</p>
+                </li>
+            </ol>
+
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-black pl-3 pt-3 md:pl-50 md:pt-20 text-white" id="contact">
+        <h3 class="text-xl md:text-5xl font-merriweather mb-3">A la recherche d'un stage du 22 mars au 21 mai 2027. </h3>
+        <a href="mailto:contact@lasson-jeremy.fr" class="text-3xl underline decoration-amber-500 hover:text-amber-400 duration-100">contact@lasson-jeremy.fr</a>
+        <div class="flex flex-wrap md:flex-nowrap gap-3 mt-5 ">
+            <button class="btn-orange"><a href="src/cv.pdf" download="cv">Télécharger mon CV</a></button>
+            <button class="btn-white"><a href="https://github.com/finbux" target="_blank">GitHub</a></button>
+            <button class="btn-white"><a href="https://www.linkedin.com/in/jérémy-lasson-4b7081b5" target="_blank">Linkedin</button></a>
+        </div>
+        <div class="border-t-2 border-gray-300 mt-20 pt-3 pb-3 opacity-70">
+            <p>© 2026 Jérémy · Développeur web - Fait avec passion avec Tailwind</p>
+        </div>
+    </footer>
+</body>
+</html>

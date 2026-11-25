@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@custom-variant dark (&:where(.dark, .dark *));
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
+@theme{
+    --color-primary : blue;
+    --font-merriweather: "Merriweather", arial;
+}
+@layer components {
+  .btn-b-orange {
+    @apply bg-orange-200 rounded-xl py-2 px-5 text-white font-bold border-b-2 border-orange-400
+  }
+  .btn-b-blue {
+    @apply bg-blue-200 rounded-xl py-2 px-5 text-white font-bold border-b-2 border-blue-400
+  }
+  .btn-b-pink {
+    @apply bg-pink-200 rounded-xl py-2 px-5 text-white font-bold border-b-2 border-pink-400
+  }
+  .btn-b-purple {
+    @apply bg-purple-200 rounded-xl py-2 px-5 text-white font-bold border-b-2 border-purple-400
+  }
+  .btn-neutral {
+    @apply bg-white rounded-xl py-2 px-5  font-bold border text-black
+  }
+  .btn-orange{
+    @apply py-5 px-10 bg-orange-500 rounded hover:bg-white hover:text-gray-600 duration-400
+ }
+    .btn-white{
+    @apply py-5 px-10 border border-white rounded hover:bg-white hover:text-gray-600 duration-400
+    }
+
+}
+
+#critere{
+    display: none;
+}
