@@ -42,6 +42,15 @@ Le site est statique : il n'y a ni serveur, ni base de données, ni framework Ja
         ├── input.css     sources Tailwind (styles personnalisés)
         └── output.css    CSS généré par Tailwind
 ```
+## Qualité
+
+Audit Lighthouse du 26 novembre 2026 :
+
+| Performance | Accessibilité | Bonnes pratiques | SEO |
+|:-----------:|:-------------:|:----------------:|:---:|
+| 99 | 100 | 100 | 100 |
+
+Suite à cet audit, les contrastes de couleurs et la taille des zones cliquables ont été corrigés.
 ## Auteur
 
 **Jérémy Lasson**, développeur web et web mobile
