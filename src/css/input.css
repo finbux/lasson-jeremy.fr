@@ -12,22 +12,22 @@
 }
 @layer components {
   .btn-b-orange {
-    @apply bg-orange-200 rounded-xl py-2 px-5 text-white font-bold border-b-2 border-orange-400
+    @apply bg-orange-200 rounded-xl py-2 px-5 text-orange-900 font-bold border-b-2 border-orange-400
   }
   .btn-b-blue {
-    @apply bg-blue-200 rounded-xl py-2 px-5 text-white font-bold border-b-2 border-blue-400
+    @apply bg-blue-200 rounded-xl py-2 px-5 text-blue-900 font-bold border-b-2 border-blue-400
   }
   .btn-b-pink {
-    @apply bg-pink-200 rounded-xl py-2 px-5 text-white font-bold border-b-2 border-pink-400
+    @apply bg-pink-200 rounded-xl py-2 px-5 text-pink-900 font-bold border-b-2 border-pink-400
   }
   .btn-b-purple {
-    @apply bg-purple-200 rounded-xl py-2 px-5 text-white font-bold border-b-2 border-purple-400
+    @apply bg-purple-200 rounded-xl py-2 px-5 text-purple-900 font-bold border-b-2 border-purple-400
   }
   .btn-neutral {
     @apply bg-white rounded-xl py-2 px-5  font-bold border text-black
   }
   .btn-orange{
-    @apply py-5 px-10 bg-orange-500 rounded hover:bg-white hover:text-gray-600 duration-400
+    @apply py-5 px-10 bg-orange-500 rounded hover:bg-white hover:text-stone-900 duration-400
  }
     .btn-white{
     @apply py-5 px-10 border border-white rounded hover:bg-white hover:text-gray-600 duration-400
