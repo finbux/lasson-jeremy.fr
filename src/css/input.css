@@ -27,7 +27,7 @@
     @apply bg-white rounded-xl py-2 px-5  font-bold border text-black
   }
   .btn-orange{
-    @apply py-5 px-10 bg-orange-500 rounded hover:bg-white hover:text-stone-900 duration-400
+    @apply text-stone-900 py-5 px-10 bg-orange-500 rounded hover:bg-white hover:text-stone-900 duration-400
  }
     .btn-white{
     @apply py-5 px-10 border border-white rounded hover:bg-white hover:text-gray-600 duration-400

@@ -63,7 +63,6 @@
     --color-stone-50: oklch(98.5% 0.001 106.423);
     --color-stone-200: oklch(92.3% 0.003 48.717);
     --color-stone-300: oklch(86.9% 0.005 56.366);
-    --color-stone-400: oklch(70.9% 0.01 56.259);
     --color-stone-500: oklch(55.3% 0.013 58.071);
     --color-stone-600: oklch(44.4% 0.011 73.639);
     --color-stone-700: oklch(37.4% 0.01 67.558);
@@ -527,9 +526,6 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
-  .text-gray-400 {
-    color: var(--color-gray-400);
-  }
   .text-gray-500 {
     color: var(--color-gray-500);
   }
@@ -582,9 +578,6 @@
   @media (width >= 40rem) {
     .sm\:text-stone-200 {
       color: var(--color-stone-200);
-    }
-    .sm\:text-stone-400 {
-      color: var(--color-stone-400);
     }
   }
   @media (width >= 48rem) {
@@ -767,6 +760,7 @@
     background-color: var(--color-orange-500);
     padding-inline: calc(var(--spacing) * 10);
     padding-block: calc(var(--spacing) * 5);
+    color: var(--color-stone-900);
     --tw-duration: 400ms;
     transition-duration: 400ms;
     &:hover {
